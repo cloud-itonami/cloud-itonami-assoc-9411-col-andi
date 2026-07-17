@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "andi.founding-1944-09-11"
+                     :title "ANDI (Asociación Nacional de Industriales, now Asociación Nacional de Empresarios de Colombia) founded 11 September 1944 (es.wikipedia.org, corroborated by independent WebSearch results; NOTE: Wikidata Q5641268's own inception statement erroneously lists '11 September 1994' with zero references -- rejected as an apparent data-entry error, not used)"
+                     :association "andi"
+                     :isic "9411"
+                     :country "COL"
+                     :kind :governance-program
+                     :url "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Nacional_de_Industriales"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1944-09-11"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "andi.dinero-ranking-2017"
+                     :title "In 2017, ANDI partnered with revista Dinero to create the first version of its business ranking ('escalafón') (es.wikipedia.org)"
+                     :association "andi"
+                     :isic "9411"
+                     :country "COL"
+                     :kind :governance-program
+                     :url "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Nacional_de_Industriales"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "2017"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}]
