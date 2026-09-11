@@ -6,7 +6,7 @@
 ;; -9411-ita-confindustria / -9411-nld-vnoncw / -9411-kor-kcci /
 ;; -9411-arg-uia / -9411-bel-feb / -9411-dnk-di / -9411-swe-sn /
 ;; -9411-fin-ek / -9411-tha-fti / -9411-chl-sofofa / -9411-cri-uccaep /
-;; ... files, plus :date-quote (see scripts/verify-catalog.cljs, header 2).
+;; ... files, plus :date-quote (see scripts/verify-catalog.cljk, header 2).
 
 {:association-rule/id {:db/unique :db.unique/identity}
  :association-rule/title {}
