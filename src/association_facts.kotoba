@@ -10,7 +10,7 @@
 ;; is indexed by position, so the generator uses the order the data file
 ;; writes. `by-topic-id` answers by name and is unaffected.
 ;;
-;; `clojure -M:parity` compiles this file and compares every field of every
+;; `kbb -M:parity` compiles this file and compares every field of every
 ;; entry with the Clojure reading; `--check` regenerates both readings and
 ;; compares them to what is on disk.
 
