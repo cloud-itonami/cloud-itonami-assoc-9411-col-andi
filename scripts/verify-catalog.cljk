@@ -82,7 +82,7 @@
 ;; the thing the entry says it says.
 
 (ns verify-catalog
-  (:require [clojure.edn :as edn]
+  (:require [kotoba.lang.edn :as edn]
             [clojure.string :as str]
             ["fs" :as fs]
             ["os" :as os]
